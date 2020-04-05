@@ -16,7 +16,7 @@ public class LinearAdapter extends RecyclerView.Adapter<LinearAdapter.LinearView
 
     private Context mContext;
     private OnItemClickListener mListener;
-    private List<String> School = Arrays.asList("北京大学", "清华大学","哈工大深圳", "上海交通大学","复旦大学","浙江大学","南京大学","中国科学技术大学",
+    private List<String> School = Arrays.asList("百度搜索", "北京大学", "清华大学","哈工大深圳", "上海交通大学","复旦大学","浙江大学","南京大学","中国科学技术大学",
             "同济大学","武汉大学","华中科技大学","中国人民大学","北京航天航空大学","国防科技大学","中山大学","华南理工大学","中南大学");
 
     public LinearAdapter(Context context, OnItemClickListener listener){
