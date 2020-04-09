@@ -3,14 +3,33 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-    <Button
-        android:id="@+id/btn_school"
+    <LinearLayout
+        android:id="@+id/ll_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_item_press"
-        android:layout_marginTop="10dp"
-        android:text="Text"
-        android:textSize="20sp"
-        />
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_school"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_item_press"
+            android:layout_marginTop="10dp"
+            android:text="Text"
+            android:textSize="20sp"
+            android:layout_weight="0.5"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:id="@+id/btn_cs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_item_press"
+            android:layout_marginTop="10dp"
+            android:text="Text"
+            android:textSize="20sp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
 
 </LinearLayout>
