@@ -27,7 +27,7 @@ public class LinearAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder>
             "https://admission.pku.edu.cn/zsxx/index.htm",
             "http://www.pkusz.edu.cn/",
             "http://yz.tsinghua.edu.cn/publish/yjszs/index.html",
-            "http://www.tsinghua-sz.edu.cn/",
+            "https://www.sigs.tsinghua.edu.cn/tzgg/index.jspx",
             "http://yzb.hitsz.edu.cn/zs",
             "https://yzb.sjtu.edu.cn/",
             "http://www.gsao.fudan.edu.cn/",
